@@ -1,0 +1,24 @@
+{
+  "name": "zk-age-gate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Prove a student is 18+ without revealing age, name or class",
+  "scripts": {
+    "postinstall": "bash scripts/get-circom.sh",
+    "tree": "node registry/build-tree.js",
+    "setup": "bash scripts/setup.sh",
+    "prove": "node scripts/prove.js",
+    "verify": "node scripts/verify.js",
+    "attack": "node scripts/attack.js",
+    "onchain": "node scripts/onchain.js",
+    "deploy:sepolia": "bash scripts/deploy-sepolia.sh",
+    "live": "node scripts/live.js"
+  },
+  "devDependencies": {
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7",
+    "ethers": "^6.13.4",
+    "snarkjs": "^0.7.5"
+  }
+}

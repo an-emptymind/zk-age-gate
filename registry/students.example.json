@@ -1,0 +1,15 @@
+{
+  "_comment": "PRIVATE. Never published. Only the Merkle root derived from this leaves the college.",
+  "students": [
+    { "roll": 1,  "name": "Aarav Mehta",    "class": 12, "age": 19 },
+    { "roll": 2,  "name": "Diya Sharma",    "class": 12, "age": 17 },
+    { "roll": 3,  "name": "Kabir Nair",     "class": 12, "age": 18 },
+    { "roll": 4,  "name": "Ishita Rao",     "class": 11, "age": 16 },
+    { "roll": 5,  "name": "Vihaan Gupta",   "class": 12, "age": 21 },
+    { "roll": 6,  "name": "Ananya Iyer",    "class": 12, "age": 18 },
+    { "roll": 7,  "name": "Reyansh Joshi",  "class": 11, "age": 17 },
+    { "roll": 8,  "name": "Myra Kulkarni",  "class": 12, "age": 20 },
+    { "roll": 9,  "name": "Arjun Bose",     "class": 12, "age": 15 },
+    { "roll": 10, "name": "Saanvi Pillai",  "class": 12, "age": 22 }
+  ]
+}

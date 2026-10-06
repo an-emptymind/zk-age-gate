@@ -1,0 +1,17 @@
+node_modules/
+build/
+contracts/out/
+cache/
+# The registry is the whole secret. Never commit it.
+registry/students.json
+# but ship the example so the repo is runnable:
+!registry/students.example.json
+
+# secrets
+.env
+
+# deployment records are safe to commit, but regenerate per network
+build/deployment-*.json
+
+# fetched by scripts/get-circom.sh, not committed (11MB, platform-specific)
+bin/
